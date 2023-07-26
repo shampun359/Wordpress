@@ -1,4 +1,21 @@
 <?php
+//Конструкция установки логотипа
+if (! function_exists('band_digital_setup')) {
+    function band_digital_setup(){
+        add_theme_support( 'custom-logo', [
+            'height'      => 130,
+            'width'       => 50,
+            'flex-width'  => false,
+            'flex-height' => false,
+            'header-text' => '',
+            'unlink-homepage-logo' => false, // WP 5.5
+        ]);
+    }
+        add_action( 'after_setup_theme', 'band_digital_setup' );
+}
+
+
+
 
 /*
 Подключение стилей искриптов
