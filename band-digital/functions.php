@@ -5,8 +5,8 @@ if (! function_exists('band_digital_setup')) {
         add_theme_support( 'custom-logo', [
             'height'      => 130,
             'width'       => 50,
-            'flex-width'  => false,
-            'flex-height' => false,
+            'flex-width'  => true,
+            'flex-height' => true,
             'header-text' => '',
             'unlink-homepage-logo' => false, // WP 5.5
         ]);
