@@ -52,3 +52,18 @@ function band_digital_scripts() {
     wp_enqueue_script( 'custom' , get_template_directory_uri() . '/js/custom.js', array('jquery'), true);
 
 }
+
+
+
+//Регестрируем области  меню
+function band_digital_menus() {
+    //Собираем зоны меню
+	$locations = array(
+		'header'  => __( 'Header Menu', 'band_digital' ),
+		'footer'  => __( 'Footer Menu', 'band_digital' ),
+	);
+    //Регестрируем области меню, которые лежат в переменной $Locations
+	register_nav_menus( $locations );
+}
+
+add_action( 'init', 'band_digital_menus' );
