@@ -1,8 +1,31 @@
-<?php get_header()?><!--Подключаем шаблон из header.php-->
+<?php get_header(); ?>
+<!--MAIN BANNER AREA START -->
+<div class="banner-area banner-3">
+      <div class="overlay dark-overlay"></div>
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
+                <div class="banner-content content-padding">
+                  <h5 class="subtitle">Диджитал агентство</h5>
+                  <h1 class="banner-title">Мы делаем SEO-продвижение и оказываем digital услуги</h1>
+                  <p>
+                    К нам обращаются, когда нужно создать лендинг под новый товар или услугу, еще, если нужно продвинуть
+                    имеющийся сайт в топ по поисковым запросам.
+                  </p>
 
-    
-    <!--  ABOUT AREA START  -->
-    <section id="intro" class="section-padding">
+                  <a href="#" class="btn btn-white btn-circled">Начать сотрудничество</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MAIN HEADER AREA END -->
+<!--  ABOUT AREA START  -->
+<section id="intro" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-md-12">
@@ -520,5 +543,4 @@
       </div>
     </section>
     <!--  COUNTER AREA END  -->
-<?php get_footer()?><!--Подключаем шаблон из footer.php-->
-    
+<?php get_footer(); ?>
